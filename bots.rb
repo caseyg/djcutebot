@@ -12,12 +12,12 @@ OAUTH_TOKEN = ENV['EBOOKS_OAUTH_TOKEN']
 OAUTH_TOKEN_SECRET = ENV['EBOOKS_OAUTH_TOKEN_SECRET']  
 
 ROBOT_ID = "ebooks" # Prefer not to talk to other robots
-TWITTER_USERNAME = "casey_gbooks" # Ebooks account username
+TWITTER_USERNAME = "hjunterpoop" # Ebooks account username
 TEXT_MODEL_NAME = "tweets" # This should be the name of the text model
 
 DELAY = 1..2 # Simulated human reply delay range, in seconds
 BLACKLIST = ['tinysubversions', 'dril'] # users to avoid interaction with
-SPECIAL_WORDS = ['systems', 'future'] # Words we like
+SPECIAL_WORDS = ['poop'] # Words we like
 BANNED_WORDS = ['voldemort', 'evgeny morozov', 'heroku'] # Words we don't want to use
 
 # Track who we've randomly interacted with globally
